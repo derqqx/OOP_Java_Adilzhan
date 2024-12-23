@@ -21,4 +21,10 @@ public class Library {
 
     }
 
+    @Override
+    public String toString() {
+        return "Library{" +
+                "libraryName='" + libraryName +
+                '}';
+    }
 }
