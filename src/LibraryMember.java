@@ -28,8 +28,7 @@ public class LibraryMember {
 
     @Override
     public String toString() {
-        return "LibraryMember{" +
-                "id=" + id +
-                ", name='" + name + '\'' + '}';
+        return "id=" + id +
+                ", name='" + name + '\'';
     }
 }

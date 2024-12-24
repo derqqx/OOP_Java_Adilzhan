@@ -18,13 +18,5 @@ public class Library {
         for (Book book : books) {
             System.out.println(book);
         }
-
-    }
-
-    @Override
-    public String toString() {
-        return "Library{" +
-                "libraryName='" + libraryName +
-                '}';
     }
 }
