@@ -8,7 +8,7 @@ public class Main {
 
         library.displayBooks();
 
-        LibraryMember member = new LibraryMember(1001 , "Dancing Queen", library);
+        LibraryMember member = new LibraryMember(1001 , "Dancing Queen");
         System.out.println("Library member: " + member);
 
     }

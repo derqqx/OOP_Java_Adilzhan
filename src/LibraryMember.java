@@ -2,14 +2,11 @@ public class LibraryMember {
 
     private int id;
     private String name;
-    private Library library;
 
-    public LibraryMember(int id, String name, Library library) {
+    public LibraryMember(int id, String name) {
         setId(id);
         setName(name);
-        setLibrary(library);
     }
-    
 
 
     public int getId() {
@@ -28,19 +25,11 @@ public class LibraryMember {
         this.name = name;
     }
 
-    public Library getLibrary() {
-        return library;
-    }
 
-    public void setLibrary(Library library) {
-        this.library = library;
-    }
     @Override
     public String toString() {
         return "LibraryMember{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", library=" + library +
-                '}';
+                ", name='" + name + '\'' + '}';
     }
 }
