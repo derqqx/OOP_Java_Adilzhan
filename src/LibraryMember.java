@@ -8,7 +8,6 @@ public class LibraryMember {
         setName(name);
     }
 
-
     public int getId() {
         return id;
     }
