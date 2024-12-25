@@ -14,7 +14,6 @@ public class Library {
 
     public void displayBooks() {
         System.out.println("Books in " + libraryName + ":");
-
         for (Book book : books) {
             System.out.println(book);
         }
