@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Library {
@@ -17,5 +18,22 @@ public class Library {
         for (Book book : books) {
             System.out.println(book);
         }
+    }
+    public List<Book> searchByAuthor(String author) {
+        List<Book> result = new ArrayList<>();
+        for (Book book : books) {
+            if (book.getAuthor().equalsIgnoreCase(author)) {
+                result.add(book);
+            }
+        }
+        return result;
+    }
+    public void removeBook(Book book) {
+        books.remove(book);
+        System.out.println("Removed book: " + book);
+    }
+
+    public void sortBooksByYear() {
+        books.sort(Comparator.comparingInt(Book::getYear));
     }
 }
