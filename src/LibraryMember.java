@@ -23,7 +23,7 @@ public class LibraryMember {
     public void setName(String name) {
         this.name = name;
     }
-
+    //тут ничего не изменилось
     @Override
     public String toString() {
         return "id=" + id +
