@@ -65,7 +65,9 @@ public class Main {
             System.out.println("Book not found!");
         }
 
-        LibraryMember member = new LibraryMember(1001 , "Dancing Queen");
-        System.out.println("Library member: " + member);
+        LibraryMember member1 = new LibraryMember(1001 , "Dancing Queen");
+        System.out.println("Library member: " + member1);
+        VIPmember member2 = new VIPmember(1002, "Rocky", 35);
+        System.out.println("VIP member: " + member2);
     }
 }
